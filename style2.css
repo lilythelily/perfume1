@@ -1,0 +1,136 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 700px;
+  }
+
+
+.pic {
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.description {
+    padding: 40px;
+  }
+
+.perfume {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: #6b718994;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 18px;
+    margin: 24px 0 24px 0;
+}
+
+h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    font-size: 40px;
+    margin: 16px 0 16px 0;
+}
+
+.text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #6b7189c2;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+  }
+
+  .price1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: #3c8067;
+    font-size: 40px;
+    letter-spacing: 0.96px;
+  }
+
+  .price2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #6b7189c2;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    text-decoration: line-through;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .add {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+  }
+
+
+  .prices {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    margin: 24px 0 24px 0;
+  }
+
+
+  .button {
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    background-color: #3c8067;
+    border-radius: 10px;
+    display: flex;
+  }
+
+
+.button:hover {
+    background-color: #2f6250;
+  }
+
+  .attribution {
+    margin: 80px;
+    color: gray;
+  }
+
+
+  @media only screen and (max-width: 1400px) {
+    section {
+        flex-direction: column;
+        width: 400px;
+    }
+
+   .pic {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 300px;
+       }
+  }
